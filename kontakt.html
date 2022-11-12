@@ -1,0 +1,51 @@
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+<title>Kontakt</title>
+<link rel="icon" href="./img/cook.png" type="image/icon type">
+
+
+<body onload="includeHTML()">
+    <script src="script.js"></script>
+    <div>
+
+        <div w3-include-html="templates/header.html"></div>
+
+    </div>
+
+
+
+    <h1 class="h11">KONTAKT</h1>
+    <div class="format">
+        <h1 class="h11">Schicke uns gerne deine Verbesserungsvorschläge oder Kommentare</h1>
+        <div class="kontaktborder">
+            <div class="formtag">
+                <form action="http://marie-willersinn.developerakademie.net/Kochwelt/send_mail.php" method="POST">
+                    <input class="input2" name="name" placeholder=" Dein Name">
+            </div>
+            <div>
+                <textarea class="textarea1" name="message" placeholder="Deine Nachricht an uns">
+                </textarea>
+            </div>
+            <div class="btn ">
+                <button type="submit "><b> Mail senden</b></button>
+            </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <div>
+
+        <div w3-include-html="templates/footer.html"></div>
+
+    </div>
+</body>

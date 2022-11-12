@@ -1,0 +1,741 @@
+/* ########################### KOCHWELT ############################ */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: #0f0d0dbf;
+    ;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+/* =============================== header =============================== */
+/* =============================== header =============================== */
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header {
+    box-shadow: 0px 0px 11px 3px rgba(204, 204, 204, 0.43);
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar img {
+    width: 265px;
+    margin-bottom: 12px;
+    margin-left: 150px;
+    filter: contrast(90%);
+}
+
+.links {
+    margin-bottom: 12px;
+    align-items: flex-end;
+    display: flex;
+    margin-right: 150px;
+}
+
+.links a {
+    color: #1f1a1abf;
+    text-decoration: none;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-weight: bold;
+}
+
+.links a:hover {
+    color: #016e01;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 8px;
+}
+
+/* =============================== section =============================== */
+/* =============================== section =============================== */
+
+.section1 {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.section2 {
+    padding-top: 1px;
+    padding-bottom: 140px;
+    background-color: #efefef;
+}
+
+.section3 {
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 100px;
+}
+
+.section1img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+.sec2img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.section1description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 100px;
+}
+
+.description {
+    font-size: 1.09em;
+}
+
+button {
+    background-color: #016e01;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+}
+
+button:hover {
+    filter: contrast(80%);
+    cursor: pointer;
+}
+
+.section2sec1 {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 80px;
+
+}
+
+.section2sec2, .section2sec2center {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.center {
+    text-align: center;
+    margin-top: 95px;
+}
+
+/* =============================== Rezept =============================== */
+/* =============================== Rezept =============================== */
+
+.normaltext {
+    font-size: 1.09em;
+}
+
+.smallh1 {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.smallerh2 {
+    font-size: 1.4em;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.profile {
+    width: 65px;
+    margin-top: 3px;
+    margin-bottom: 16px;
+    border-radius: 45px;
+    margin-right: 30px;
+    margin-left: 2px;
+}
+
+.btnfood:hover {
+    background-image: url('./img/yes.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+
+.rezeptposition {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.rezept1salad {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.rezept1icon {
+    width: 15px;
+    margin-right: 8px;
+}
+
+.rezept1iconpos {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 65px;
+    border-bottom: solid 1px #efefef;
+}
+
+.rezepttext {
+    padding-bottom: 50px;
+    padding-left: 0px;
+}
+
+.rezepttextbg1 {
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+
+.rezepttextbg2 {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.rezeptdetails {
+    margin-right: 5px;
+}
+
+.rezept2padding {
+    margin-block-start: -30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.rezept2padding2 {
+    padding-right: 18px;
+    padding-bottom: 15px;
+}
+
+.boxing {
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+
+
+.rezept3bottom {
+    margin-bottom: 120px;
+    margin-top: 25px;
+    margin-left: 5px;
+
+}
+
+.rezept3normaltext {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+.rezept3icon {
+    display: flex;
+    align-items: inherit;
+}
+
+.rezept3normaltext {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.rezept3center {
+    display: flex;
+    text-align: center;
+}
+
+.formklasse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* =============================== footer =============================== */
+/* =============================== footer =============================== */
+
+.footersec {
+    background-color: rgb(64, 59, 59);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerimg {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.footerimgimg {
+    width: 265px;
+    filter: contrast(90%);
+}
+
+.footerimgimg:hover {
+    filter: contrast(70%);
+    background-image: url('./img/arrow.png');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.footernav {
+    color: #1f1a1abf;
+    margin-right: 25px;
+    font-weight: bold;
+}
+
+.footernav a {
+    text-decoration: none;
+    transition: all 225ms ease-in-out;
+    color: #1f1a1abf;
+}
+
+.footernav a:hover {
+    text-decoration: none;
+    transition: all 225ms ease-in-out;
+    color: rgba(128, 128, 128, 0.637);
+}
+
+.someicon {
+    width: 32px;
+    height: 32px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.someicon:hover {
+    filter: brightness(60%);
+}
+
+.someicon2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+
+/* =============================== contact =============================== */
+/* =============================== contact =============================== */
+
+
+.h11 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.input2 {
+    font-size: 1em;
+    color: #A99999;
+    cursor: text;
+    cursor: text;
+    background-color: #EFEFEF;
+    border-radius: 20px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 36.3%;
+    padding-left: 15px;
+}
+
+.textarea1 {
+    font-size: 1em;
+    text-shadow: #A99999;
+    cursor: text;
+    background-color: #A99999;
+    border-radius: 20px;
+    padding-right: 250px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 120px;
+    margin-left: 36.3%;
+    font-family: 'Raleway', sans-serif;
+    background-color: #EFEFEF;
+}
+
+.btn {
+    margin-left: 235px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.datenschutztext {
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+}
+
+.kontaktborder {
+    background-color: #F5F5F5;
+    padding-top: 50px;
+}
+
+.index-link {
+    text-decoration: none;
+    color: #0f0d0dbf;
+}
+
+.index-link:hover {
+    text-decoration: underline;
+    color: #0626c8e5;
+}
+
+.input1 {
+    border: solid 1px #EFEFEF;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 1px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 1px;
+}
+
+/* =============================== IMPRESSUM =============================== */
+/* =============================== IMPRESSUM =============================== */
+
+.impressum {
+    margin-top: 25px;
+}
+
+.impressum a {
+    text-decoration: none;
+    color: #0f0d0dbf;
+}
+
+.impressum a:hover {
+    text-decoration: underline;
+}
+
+/* =============================== RESPONSIVE =============================== */
+/* =============================== RESPONSIVE =============================== */
+
+@media(max-width: 1000px) {
+    .section1 {
+        flex-direction: column;
+    }
+
+    .section1img {
+        margin-left: 40px;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .navbar img {
+        margin-left: -94px;
+        width: 350px;
+    }
+
+    .links {
+        justify-content: center;
+    }
+
+    .someicon {
+        width: 80px;
+        height: 80px;
+
+    }
+
+    .footerimgimg {
+        width: 400px
+    }
+
+    body {
+        margin: 0px;
+        font-size: 26px;
+    }
+
+    .h11 {
+        text-align: center;
+    }
+
+    .input2 {
+        margin-left: 24.3%;
+    }
+
+    .textarea1 {
+        margin-left: 24.3%;
+    }
+}
+
+@media(max-width: 800px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .links {
+        justify-content: center;
+    }
+
+    .navbar img {
+        margin-left: -94px;
+        width: 350px;
+    }
+
+    .someicon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .footerimgimg {
+        width: 330px
+    }
+
+    body {
+        margin: 0px;
+        font-size: 24px;
+    }
+
+    .h11 {
+        text-align: center;
+    }
+
+    .input2 {
+        margin-left: 24.3%;
+    }
+
+    .textarea1 {
+        margin-left: 24.3%;
+    }
+}
+
+
+
+
+@media(max-width: 600px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .links {
+        justify-content: center;
+    }
+
+    .navbar img {
+        margin-left: -94px;
+        width: 350px;
+    }
+
+    .someicon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .footerimgimg {
+        width: 300px
+    }
+
+    body {
+        margin: 0px;
+        font-size: 20px;
+    }
+
+    .h11 {
+        text-align: center;
+        width: 76%;
+    }
+
+    .input2 {
+        margin-left: 1%;
+    }
+
+    .textarea1 {
+        margin-left: 1%;
+        font-size: 0.94em;
+    }
+
+    .section1img {
+        margin-left: 4px;
+        width: 420px;
+    }
+
+    .hidemobile {
+        display: none
+    }
+
+    .section2sec2, .section2sec2center {
+        flex-direction: column;
+    }
+
+    .sec2img {
+        width: 360px;
+        height: 300px;
+    }
+
+    .section3 {
+        display: flex;
+        padding-left: 70px;
+        padding-right: 70px;
+        flex-direction: column;
+    }
+
+    .footersec {
+        flex-direction: column;
+        padding-right: 60px;
+    }
+
+    .btn {
+        margin-left: 80px;
+    }
+
+    .datenschutztext {
+        margin-left: 63px;
+        margin-top: 28px;
+        margin-bottom: 154px;
+        margin-right: 71px;
+    }
+
+    .rezeptposition {
+        padding-left: 29px;
+        padding-right: 240px;
+    }
+
+    .rezept1iconpos {
+        flex-direction: column;
+    }
+
+    .rezept2padding {
+        flex-direction: column;
+    }
+
+
+}
+
+
+
+
+@media(max-width: 400px) {
+
+    .header {
+        flex-direction: column;
+    }
+
+    .links {
+        justify-content: center;
+    }
+
+    .navbar img {
+        margin-left: 0px;
+        width: 300px;
+    }
+
+    .someicon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .footerimgimg {
+        width: 300px
+    }
+
+    body {
+        margin: 0px;
+        font-size: 18px;
+    }
+
+    .h11 {
+        text-align: center;
+        width: 98%;
+    }
+
+    .input2 {
+        margin-left: 27%;
+    }
+
+    .textarea1 {
+        margin-left: 27%;
+        height: 50px;
+        width: 50px;
+    }
+
+
+    .section1img {
+        margin-left: 4px;
+        width: 260px;
+    }
+
+    .hidemobile {
+        display: none
+    }
+
+    .section2sec2, .section2sec2center {
+        flex-direction: column;
+    }
+
+    .sec2img {
+        width: 255px;
+        height: 255px;
+    }
+
+    .section3 {
+        display: flex;
+        padding-left: 70px;
+        padding-right: 70px;
+        flex-direction: column;
+    }
+
+    .footersec {
+        flex-direction: column;
+        padding-right: 10px;
+    }
+
+    .btn {
+        margin-left: 80px;
+    }
+
+    .datenschutztext {
+        margin-left: 41px;
+        margin-top: 42px;
+        margin-bottom: 154px;
+        margin-right: 71px;
+    }
+
+}
+
+
+
+/* ########################### KOCHWELT ############################ */
